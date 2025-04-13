@@ -32,6 +32,8 @@ file_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
+# Set up logging for the script
+
 
 def transform_text(text):
     """
